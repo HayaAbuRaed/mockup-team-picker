@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import getMembers from "../../data";
+import Buttons from "../Buttons/Buttons";
 import TeamList from "../TeamList/TeamList";
 import styles from "./Picker.module.css";
 
@@ -37,6 +38,8 @@ const MemberPicker = () => {
       </div>
 
       <TeamList team={filteredMembers} setTeam={setTeam} />
+
+      <Buttons team={team} setTeam={setTeam} />
     </div>
   );
 };
