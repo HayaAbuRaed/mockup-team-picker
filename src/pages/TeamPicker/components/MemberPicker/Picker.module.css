@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.searchBar {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+input[type="search"] {
+  width: 100%;
+  padding: 0.65rem;
+  border: none;
+}
+
+input[type="search"]:focus {
+  outline: none;
+  border: none;
+}
+
+.searchBar i {
+  color: #9095a5;
+  font-size: 1rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}

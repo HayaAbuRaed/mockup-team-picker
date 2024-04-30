@@ -1,0 +1,30 @@
+.li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.65em;
+}
+
+.memberInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+}
+
+.checkBox {
+  display: flex;
+  border: 2.5px solid #ccc;
+  border-radius: 50%;
+  padding: 0.25rem;
+}
+
+.checked {
+  border-color: #98ce63;
+}
+
+.checkBox i {
+  color: #98ce63;
+}
