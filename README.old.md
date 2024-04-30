@@ -1,1 +1,0 @@
-# mockup-team-picker
