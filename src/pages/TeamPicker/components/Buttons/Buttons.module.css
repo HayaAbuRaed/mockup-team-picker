@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.button {
+  border-radius: 0.5rem;
+  padding: 0.8rem 3rem;
+  color: #f5f5f5;
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+}
+
+.button.save {
+  text-transform: uppercase;
+  background: rgb(108, 183, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(108, 183, 255, 1) 0%,
+    rgba(120, 139, 255, 1) 100%
+  );
+}
+
+.button.cancel {
+  color: #ccc;
+  border: 1px solid #ccc;
+}
