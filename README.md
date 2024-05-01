@@ -21,13 +21,15 @@ Note: just the design we don’t to implement any functionality
 
 You can view the project live [here](https://mockup-team-picker.netlify.app/).
 
+<br />
+
 <div align="center">
   <img src="https://github.com/HayaAbuRaed/mockup-team-picker/assets/123592435/3dce9267-2f3e-441d-b86c-a1aa9853693c" width="500"/>
 </div>
 
-<br />
+ <br /> <br />
 
-Feel free to explore the functionalities I added to the task.
+&nbsp; Feel free to explore the functionalities I added to the task.
 
 <br />
 
